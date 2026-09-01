@@ -18,3 +18,6 @@ Generic systemd + URL up-checker plugin. Feature parity with monokit1 `upCheck/`
   - [ ] Unreachable (timeout/network)
   - [ ] Unexpected status code
   - [ ] Per-URL Redmine issues with success/failure bodies
+- [ ] Alarm/issue key sanitisation so unit names and URLs are safe as keys
+- [ ] Health summary box output (depends on the lib renderer)
+- [ ] Health data POST to the server API (depends on base client/server API)
